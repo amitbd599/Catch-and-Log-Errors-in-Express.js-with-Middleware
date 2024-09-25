@@ -18,7 +18,7 @@ exports.register = async (req, res) => {
 
     }
   } catch (e) {
-    res.status(200).json({ status: "error", error: e });
+    res.status(200).json({ status: "error", error: e.toString() });
   }
 };
 
@@ -40,7 +40,7 @@ exports.login = async (req, res) => {
 
       // Set cookie
       let options = {
-        maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+        maxAge: 1 * 24 * 60 * 60 * 1000, // 30 days
         httpOnly: true,
         sameSite: "none",
         secure: true,

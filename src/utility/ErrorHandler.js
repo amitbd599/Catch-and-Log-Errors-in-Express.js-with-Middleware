@@ -2,18 +2,24 @@
 const fs = require("fs");
 
 //Create Custom Error
-const CreateError = (msg, status = 400) => {
+const CreateError = (msg, status) => {
   const e = new Error(msg);
-  e.status = status;
+  e.status = status; //404
   return e;
 };
 
+
+
+
 //Not Found Error Handler
 const NotFoundError = (req, res, next) => {
+
+  let data = req.originalUrl
   const error = CreateError(
-    `Your Requested Content was not found on this Server`,
+    `Your Requested ${data} `,
     404,
   );
+
   next(error);
 };
 
@@ -32,7 +38,7 @@ const DefaultErrorHandler = (err, req, res, next) => {
     flags: "a", // If you don’t set the flag or use a different flag (like "w"), it could overwrite the file every time the error handler is invoked, which would delete previous log data.
   });
 
-  const logMes = err.toString() + new Date() + "\n";
+  const logMes = message + "||" + err.stack + "||" + new Date() + "\n";
 
   logger.write(logMes);
 };

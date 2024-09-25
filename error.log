@@ -1,2 +1,23 @@
-Error: Your Requested Content was not found on this ServerSun Sep 22 2024 01:47:08 GMT+0600 (Bangladesh Standard Time)
-Error: Your Requested Content was not found on this ServerSun Sep 22 2024 01:47:29 GMT+0600 (Bangladesh Standard Time)
+Error: Your Requested /api/hello Wed Sep 25 2024 22:35:46 GMT+0600 (Bangladesh Standard Time)
+Your Requested /api/hello ||Error: Your Requested /api/hello 
+    at CreateError (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\src\utility\ErrorHandler.js:6:13)
+    at NotFoundError (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\src\utility\ErrorHandler.js:19:17)
+    at Layer.handle [as handle_request] (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:328:13)
+    at E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:280:10)
+    at E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:175:3)||Wed Sep 25 2024 22:36:41 GMT+0600 (Bangladesh Standard Time)
+Your Requested /api/herrrr ||Error: Your Requested /api/herrrr 
+    at CreateError (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\src\utility\ErrorHandler.js:6:13)
+    at NotFoundError (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\src\utility\ErrorHandler.js:19:17)
+    at Layer.handle [as handle_request] (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:328:13)
+    at E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:280:10)
+    at E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (E:\Ostad\MERN\Catch and Log Errors in Express.js with Middleware\node_modules\express\lib\router\index.js:175:3)||Wed Sep 25 2024 22:37:09 GMT+0600 (Bangladesh Standard Time)
